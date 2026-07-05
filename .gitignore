@@ -1,0 +1,21 @@
+# File yang tidak perlu di-commit
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Dataset (opsional — jika ukuran terlalu besar bisa diexclude)
+# *.csv
+
+# Notebook output (opsional)
+# .ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
